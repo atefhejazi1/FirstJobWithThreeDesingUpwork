@@ -1,0 +1,69 @@
+.firstPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .data {
+    margin-top: -20px;
+
+    h1 {
+      font-weight: bold;
+      font-family: 'Lora', serif;
+    }
+
+
+  }
+
+  ul li {
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+  }
+
+  ul li:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f054';
+    font-weight: 900;
+    margin-right: 5px;
+    color: #6FDA44;
+    font-size: 14px;
+    position: relative;
+  }
+
+
+}
+
+.secondPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 90px;
+
+  img {
+    padding-top: 70px;
+    box-shadow: 0 10px 6px -6px #ccc;
+  }
+
+  .data {
+    padding-top: 45px;
+
+    h1 {
+      font-weight: bold;
+      font-family: 'Lora', serif;
+    }
+  }
+
+
+  ul li {
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+  }
+
+  ul li:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f054';
+    font-weight: 900;
+    margin-right: 5px;
+    color: #6FDA44;
+    font-size: 14px;
+    position: relative;
+  }
+}
+
+

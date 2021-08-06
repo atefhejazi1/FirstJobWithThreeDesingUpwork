@@ -1,0 +1,481 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.navbar {
+  background-color: #54c53f;
+  margin-bottom: 0 !important;
+  border: none;
+  color: #fff;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+nav .navbar-brand {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+nav .navbar-brand span {
+  color: #fff !important;
+  font-weight: bold;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-family: "Archivo Narrow", sans-serif;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  padding: 13px;
+  color: #fff !important;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link:hover, navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link.active, navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link:focus {
+  margin-left: 20px;
+  color: #fff;
+  padding: 13px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+  z-index: 99999;
+  transition: background 1s ease;
+}
+
+.wave-container {
+  position: relative;
+  background: #54c53f;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 7rem 1.25rem 2.5rem 1.25rem;
+  font-family: "Lora", serif;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0 1.25rem 5rem 1.25rem;
+  font-family: "Merriweather", serif;
+}
+
+.intro-environmental-sector {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.intro-environmental-sector p {
+  line-height: 2;
+  padding: 30px;
+  color: #6d8677;
+}
+
+.whyDoThat {
+  background-color: #54c53f;
+  background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%2328d63c' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+  width: 100%;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.whyDoThat h2 {
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Lora", serif;
+  letter-spacing: 3px;
+}
+.whyDoThat p {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+}
+
+.SectorsOfInterest {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.SectorsOfInterest h2 {
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-family: "Lora", serif;
+}
+.SectorsOfInterest p {
+  line-height: 1.6;
+  font-family: "Merriweather", serif;
+}
+.SectorsOfInterest p:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #54c53f;
+  font-size: 14px;
+  position: relative;
+}
+
+.strategy {
+  background-color: #54c53f;
+  background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%2328d63c' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+  width: 100%;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.strategy h2 {
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Lora", serif;
+  letter-spacing: 3px;
+}
+.strategy p {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+}
+
+.investment {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.investment h2 {
+  padding-bottom: 20px;
+  z-index: 999 !important;
+  color: #000 !important;
+  font-family: "Lora", serif;
+  font-size: 60px;
+}
+.investment div {
+  z-index: 999;
+  color: #000;
+}
+.investment h2 {
+  padding-bottom: 20px;
+  font-family: "Lora", serif;
+}
+.investment i {
+  color: #54c53f;
+  margin-bottom: 30px;
+}
+.investment p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+.team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f0f5f7;
+}
+.team h2 {
+  padding-bottom: 10px;
+  font-family: "Lobster", cursive;
+}
+.team img {
+  width: 230px;
+  height: 200px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+.team p {
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-family: "Exo 2", sans-serif;
+}
+.team a {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background: url(../images/investment.jpg) no-repeat center fixed;
+  background-size: 100% 100%;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact .contact-item {
+  margin-top: 100px;
+  background-color: #ECECEC;
+  padding: 60px 20px 90px 20px;
+  margin-right: 2px;
+  height: 350px;
+}
+
+.contact .contact-item i.main {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 50px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.contact .contact-item a {
+  padding-left: 15px;
+  padding-top: 50px;
+}
+
+.contact .contact-item p {
+  color: #000;
+  font-size: 17px;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+.contact .contact-item i.contact-font {
+  padding: 10px;
+  font-size: 25px;
+  color: #000;
+  border-radius: 50%;
+  border: 2px solid #232323;
+  margin-top: 20px;
+}
+
+.contact .contact-item h4 {
+  border-bottom: 5px solid #232323;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+.contact .contact-item b {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact .contact-item span {
+  display: block;
+  color: #181700;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.contact .contact-item span a {
+  text-decoration: none;
+  color: #181700;
+}
+
+@media (max-width: 575.98px) {
+  .contact .contact-item i.main {
+    top: 10%;
+    left: 39%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact .contact-item i.main {
+    top: 10%;
+    left: 39%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact .contact-item i.main {
+    top: 12%;
+    left: 42%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact .contact-item i.main {
+    top: 12%;
+    left: 30%;
+  }
+}
+.google-map {
+  margin: -8px;
+}
+
+footer {
+  background-color: #54c53f;
+  color: #fff;
+  padding: 10px;
+  display: block;
+  height: 200px;
+}
+footer .container {
+  margin-top: 80px;
+}
+footer .copyright {
+  margin-left: 60%;
+  font-weight: bold;
+}
+
+/* ################################ Start Scroll Up ################################  */
+#scroll_up {
+  width: 50px;
+  height: 40px;
+  color: #DDD;
+  background-color: #272727;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  cursor: pointer;
+  z-index: 9999;
+  display: none;
+}
+
+#scroll_up:hover {
+  background-color: #444;
+}
+
+/* ################################ Start Scroll Up ################################  */
+.firstPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.firstPerosnTeam .data h1 {
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 15px;
+}
+.firstPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.firstPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+.firstPerosnTeam .img-manager {
+  height: 300px;
+  margin-top: 70px;
+}
+
+.secondPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.secondPerosnTeam img {
+  padding-top: 70px;
+  box-shadow: 0 10px 6px -6px #ccc;
+}
+.secondPerosnTeam .data {
+  padding-top: 45px;
+}
+.secondPerosnTeam .data h1 {
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 15px;
+}
+.secondPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.secondPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+.secondPerosnTeam .img-manager {
+  height: 300px;
+  margin-top: 70px;
+}
+
+/* ############################# Start Current investment ############################# */
+.current-investment {
+  padding: 0 0 100px;
+}
+.current-investment h1 {
+  padding-bottom: 20px;
+}
+.current-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.current-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.current-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.current-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.current-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.current-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Current investment ############################# */
+/* ############################# Start Recent investment ############################# */
+.recent-investment {
+  padding: 0 0 100px;
+}
+.recent-investment h1 {
+  padding-bottom: 20px;
+}
+.recent-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.recent-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.recent-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.recent-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.recent-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.recent-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Recent investment ############################# */
+
+/*# sourceMappingURL=style.css.map */

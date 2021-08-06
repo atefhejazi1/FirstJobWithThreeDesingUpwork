@@ -1,0 +1,70 @@
+/* ############################# Start Current investment ############################# */
+.current-investment {
+  padding: 0 0 100px;
+}
+.current-investment h1 {
+  padding-bottom: 20px;
+}
+.current-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.current-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.current-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.current-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.current-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.current-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Current investment ############################# */
+/* ############################# Start Recent investment ############################# */
+.recent-investment {
+  padding: 0 0 100px;
+}
+.recent-investment h1 {
+  padding-bottom: 20px;
+}
+.recent-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.recent-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.recent-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.recent-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.recent-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.recent-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Recent investment ############################# */
+
+/*# sourceMappingURL=investments.css.map */

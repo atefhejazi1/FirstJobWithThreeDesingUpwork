@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.firstPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.firstPerosnTeam .data {
+  padding-top: 45px;
+}
+.firstPerosnTeam .data h1 {
+  font-weight: bold;
+}
+.firstPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.firstPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+.secondPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.secondPerosnTeam img {
+  padding-top: 70px;
+  box-shadow: 0 10px 6px -6px #ccc;
+}
+.secondPerosnTeam .data {
+  padding-top: 45px;
+}
+.secondPerosnTeam .data h1 {
+  font-weight: bold;
+}
+.secondPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.secondPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+/*# sourceMappingURL=team.css.map */

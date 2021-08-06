@@ -1,0 +1,104 @@
+/* ############################# Start Current investment ############################# */
+.investment-intro {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.current-investment {
+  padding: 0 0 100px;
+
+  h1 {
+    padding-bottom: 20px;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+
+  .card {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #08526d;
+  }
+
+
+  .card .card-text {
+    color: #787878;
+    margin-bottom: 6px;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
+  }
+
+  .card .card-link {
+    color: #529637;
+    font-weight: bold;
+
+    i {
+      color: #08526d;
+    }
+  }
+}
+
+/* ############################# End Current investment ############################# */
+
+/* ############################# Start Recent investment ############################# */
+.recent-investment {
+  padding: 0 0 100px;
+
+  h1 {
+    padding-bottom: 20px;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+
+  .card {
+    margin-bottom: 30px;
+    padding: 20px;
+
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #08526d;
+  }
+
+
+  .card .card-text {
+    color: #787878;
+    margin-bottom: 6px;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
+  }
+
+  .card .card-link {
+    color: #529637;
+    font-weight: bold;
+
+    i {
+      color: #08526d;
+    }
+  }
+}
+
+/* ############################# End Recent investment ############################# */

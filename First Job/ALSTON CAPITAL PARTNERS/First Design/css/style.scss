@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body, body {
+  height: 100%;
+}
+
+// ################## Start Navbar ##################
+
+nav {
+  background-color: #1D4354;
+  z-index: 9999;
+
+  .navbar-brand {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #fff !important;
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 2px;
+
+    span {
+      color: #6FDA44;
+    }
+  }
+
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #6FDA44;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: 'Archivo Narrow', sans-serif;
+
+  &:hover {
+    color: #6FDA44;
+  }
+}
+
+
+// ################## End Navbar ##################
+
+// ################## Start Homepage ##################
+.homepage {
+  height: 100vh;
+  min-width: 100vh;
+  background-image: url("../images/homepage.png");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: 100% 100%;
+
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 2;
+  }
+}
+
+
+// ################## End Homepage ##################
+
+
+// ################## Start environmental-sector ##################
+.environmental-sector {
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  h1 {
+    font-family: 'Lora', serif;
+
+  }
+
+  p {
+    padding-top: 25px;
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+  }
+}
+
+// ################## End environmental-sector ##################
+
+
+// ################## Start Footer ##################
+footer {
+  //position: relative;
+  background-color: #1D4354;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 1px;
+
+  .copyright {
+    margin-left: 60%;
+  }
+}
+
+// ################## End Footer ##################
+
+
+// Second Page About Us Page
+
+
+// ####################### Start About Us Page #######################
+.whatWeDo {
+  //padding-top: 30px;
+  padding-bottom: 30px;
+
+
+  .data {
+    padding-top: 45px;
+
+    h1 {
+      font-weight: bold;
+      font-family: 'Lora', serif;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 16px;
+      color: #4e555b;
+      font-family: 'Merriweather', serif;
+    }
+  }
+}
+
+.interestRates {
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+  .data {
+    //padding-top: 45px;
+
+    h1 {
+      font-weight: bold;
+      font-family: 'Lora', serif;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 16px;
+      color: #4e555b;
+      font-family: 'Merriweather', serif;
+
+    }
+
+  }
+
+}
+
+.breadcrumb {
+  border-radius: 0;
+  margin-bottom: 55px;
+}
+
+@import "strategy";
+
+@import "team";
+@import "investments";
+@import "contact";
+
+

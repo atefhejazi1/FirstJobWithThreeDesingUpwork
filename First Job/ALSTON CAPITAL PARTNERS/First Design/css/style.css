@@ -1,0 +1,361 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, body {
+  height: 100%;
+}
+
+nav {
+  background-color: #1D4354;
+  z-index: 9999;
+}
+nav .navbar-brand {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff !important;
+  font-family: "Archivo Narrow", sans-serif;
+  letter-spacing: 2px;
+}
+nav .navbar-brand span {
+  color: #6FDA44;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #6FDA44;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #6FDA44;
+}
+
+.homepage {
+  height: 100vh;
+  min-width: 100vh;
+  background-image: url("../images/homepage.png");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: 100% 100%;
+}
+.homepage .overlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.environmental-sector {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.environmental-sector h1 {
+  font-family: "Lora", serif;
+}
+.environmental-sector p {
+  padding-top: 25px;
+  line-height: 1.6;
+  font-family: "Merriweather", serif;
+}
+
+footer {
+  background-color: #1D4354;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Archivo Narrow", sans-serif;
+  letter-spacing: 1px;
+}
+footer .copyright {
+  margin-left: 60%;
+}
+
+.whatWeDo {
+  padding-bottom: 30px;
+}
+.whatWeDo .data {
+  padding-top: 45px;
+}
+.whatWeDo .data h1 {
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.whatWeDo .data p {
+  line-height: 1.8;
+  font-size: 16px;
+  color: #4e555b;
+  font-family: "Merriweather", serif;
+}
+
+.interestRates {
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.interestRates .data h1 {
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.interestRates .data p {
+  line-height: 1.8;
+  font-size: 16px;
+  color: #4e555b;
+  font-family: "Merriweather", serif;
+}
+
+.breadcrumb {
+  border-radius: 0;
+  margin-bottom: 55px;
+}
+
+.strategy-img {
+  background: url("../images/strategic-planning.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  min-height: 400px;
+  margin-bottom: 40px;
+}
+
+.strategy {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.strategy h1 {
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.strategy p {
+  font-family: "Merriweather", serif;
+  color: #4e555b;
+}
+
+.investment-img {
+  margin-bottom: 40px;
+}
+
+.investment {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.investment h1 {
+  font-weight: bold;
+  padding-bottom: 40px;
+  font-family: "Lora", serif;
+}
+.investment div {
+  padding-bottom: 20px;
+}
+.investment div h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+}
+.investment div p {
+  font-family: "Merriweather", serif;
+  color: #4e555b;
+}
+.investment i {
+  color: #6FDA44;
+  margin-bottom: 10px;
+}
+
+.firstPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.firstPerosnTeam .data {
+  margin-top: -20px;
+}
+.firstPerosnTeam .data h1 {
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.firstPerosnTeam ul li {
+  padding-bottom: 20px;
+  font-family: "Merriweather", serif;
+}
+.firstPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+.secondPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.secondPerosnTeam img {
+  padding-top: 70px;
+  box-shadow: 0 10px 6px -6px #ccc;
+}
+.secondPerosnTeam .data {
+  padding-top: 45px;
+}
+.secondPerosnTeam .data h1 {
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+.secondPerosnTeam ul li {
+  padding-bottom: 20px;
+  font-family: "Merriweather", serif;
+}
+.secondPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+/* ############################# Start Current investment ############################# */
+.investment-intro {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.current-investment {
+  padding: 0 0 100px;
+}
+.current-investment h1 {
+  padding-bottom: 20px;
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+.current-investment h4 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Libre Baskerville", serif;
+}
+.current-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.current-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.current-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+  font-family: "Merriweather", serif;
+  padding-bottom: 10px;
+}
+.current-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.current-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Current investment ############################# */
+/* ############################# Start Recent investment ############################# */
+.recent-investment {
+  padding: 0 0 100px;
+}
+.recent-investment h1 {
+  padding-bottom: 20px;
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+.recent-investment h4 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Libre Baskerville", serif;
+}
+.recent-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.recent-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.recent-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+  font-family: "Merriweather", serif;
+  padding-bottom: 10px;
+}
+.recent-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.recent-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Recent investment ############################# */
+.address {
+  font-weight: bold;
+  padding-top: 60px;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.address hr {
+  border: 2px solid #ccc;
+}
+
+.contact-info {
+  padding: 30px;
+}
+.contact-info .info {
+  border: 1px solid #ccc;
+  padding: 50px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+.contact-info a {
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+}
+.contact-info h3 {
+  font-weight: bold;
+  color: #1c7430;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
+.contact-info .email {
+  color: #1D4354;
+  font-family: "Libre Baskerville", serif;
+}
+.contact-info li {
+  padding-bottom: 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.google-map {
+  padding: 0;
+  margin-top: 50px;
+}
+.google-map iframe {
+  margin-top: -18px;
+}
+
+/*# sourceMappingURL=style.css.map */

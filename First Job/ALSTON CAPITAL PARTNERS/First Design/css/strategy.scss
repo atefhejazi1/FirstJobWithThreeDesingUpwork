@@ -1,0 +1,57 @@
+
+.strategy-img {
+  background: url("../images/strategic-planning.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  min-height: 400px;
+  margin-bottom: 40px;
+}
+
+.strategy {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  h1 {
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  }
+
+  p {
+    font-family: 'Merriweather', serif;
+    color: #4e555b;
+  }
+}
+
+
+.investment-img {
+  margin-bottom: 40px;
+}
+
+.investment {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  h1 {
+    font-weight: bold;
+    padding-bottom: 40px;
+    font-family: 'Lora', serif;
+  }
+
+  div {
+    padding-bottom: 20px;
+
+    h3 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 30px;
+    }
+
+    p {
+      font-family: 'Merriweather', serif;
+      color: #4e555b;
+    }
+  }
+
+  i {
+    color: #6FDA44;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,510 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+nav .navbar-brand {
+  color: #08526d;
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Archivo Narrow", sans-serif;
+  letter-spacing: 2px;
+}
+
+nav .navbar-brand span {
+  font-weight: bold;
+  color: #cd2b31 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #08526d;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #08526d;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  padding: 13px;
+  color: #08526d !important;
+  margin-left: 10px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link:hover, navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link.active, navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link:focus {
+  margin-left: 20px;
+  color: #08526d;
+  padding: 13px 2px;
+  font-size: 17px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+  z-index: 99999;
+  transition: background 1s ease;
+}
+
+.homepage {
+  min-height: 600px;
+  background-image: url(../images/homePageImage.jpg);
+  background-size: 100% 100%;
+  min-width: 100vh;
+  padding: 160px 0px;
+  background-repeat: no-repeat;
+}
+.homepage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+.homepage .content {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  line-height: 1.5;
+  font-size: 70px;
+  margin: 50px 100px;
+  padding: 10px;
+}
+.homepage .content h1 {
+  padding: 10px;
+  font-family: "Roboto Slab", serif;
+}
+.homepage .content h1 span {
+  background: #CD2B31;
+  padding: 5px;
+  margin: 10px;
+}
+.homepage .arrowToExtraTasty {
+  display: inline-block;
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  z-index: 999;
+}
+
+@media (max-width: 576px) {
+  .homepage .content {
+    margin: 50px 5px;
+    padding: 10px;
+  }
+}
+.intro-environmental-sector {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.intro-environmental-sector p {
+  line-height: 2;
+  padding: 30px;
+  font-family: "Merriweather", serif;
+  font-size: 27px;
+  color: #6f6767;
+}
+
+.whyDoThat {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #f0f5f7;
+}
+.whyDoThat h2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+.whyDoThat p {
+  line-height: 2;
+  font-size: 17px;
+  color: #666666;
+  margin: 0px auto 15px;
+  font-family: "Merriweather", serif;
+}
+
+.SectorsOfInterest {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.SectorsOfInterest h2 {
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-family: "Lora", serif;
+}
+.SectorsOfInterest p {
+  line-height: 2;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+}
+.SectorsOfInterest p:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #CD2B31;
+  font-size: 14px;
+  position: relative;
+}
+
+.strategy {
+  background-color: #f0f5f7;
+  padding: 80px 0;
+}
+.strategy h2 {
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+.strategy p {
+  line-height: 2;
+  font-size: 17px;
+  color: #666666;
+  margin: 0px auto 15px;
+  font-family: "Merriweather", serif;
+}
+
+.investment {
+  background-image: url(../images/investment.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.investment .overlay {
+  color: white;
+  min-height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: rgba(2, 2, 2, 0.9);
+}
+.investment h2 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  z-index: 999 !important;
+  color: white !important;
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+}
+.investment div {
+  z-index: 999;
+  color: white;
+}
+.investment i {
+  color: #e63848;
+  margin-bottom: 30px;
+}
+.investment h3 {
+  padding-bottom: 20px;
+  font-family: "Lobster", cursive;
+}
+.investment p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+.team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.team h2 {
+  padding-bottom: 10px;
+  font-family: "Lobster", cursive;
+}
+.team img {
+  width: 230px;
+  height: 200px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+.team p {
+  padding-bottom: 20px;
+  font-family: "Exo 2", sans-serif;
+}
+.team a {
+  margin-bottom: 20px;
+}
+
+.contact {
+  background: url(../images/investment.jpg) no-repeat center fixed;
+  background-size: 100% 100%;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact .contact-item {
+  margin-top: 100px;
+  background-color: #ECECEC;
+  padding: 60px 20px 90px 20px;
+  margin-right: 2px;
+  height: 350px;
+}
+
+.contact .contact-item i.main {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 50px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.contact .contact-item a {
+  padding-left: 15px;
+  padding-top: 50px;
+}
+
+.contact .contact-item p {
+  color: #000;
+  font-size: 17px;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+.contact .contact-item i.contact-font {
+  padding: 10px;
+  font-size: 25px;
+  color: #000;
+  border-radius: 50%;
+  border: 2px solid #232323;
+  margin-top: 20px;
+}
+
+.contact .contact-item h4 {
+  border-bottom: 5px solid #232323;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-family: "Redressed", cursive;
+}
+
+.contact .contact-item b {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact .contact-item span {
+  display: block;
+  color: #181700;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-family: "Merriweather", serif;
+}
+.contact .contact-item span a {
+  text-decoration: none;
+  color: #181700;
+}
+
+@media (max-width: 575.98px) {
+  .contact .contact-item i.main {
+    top: 10%;
+    left: 39%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact .contact-item i.main {
+    top: 10%;
+    left: 39%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact .contact-item i.main {
+    top: 12%;
+    left: 42%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact .contact-item i.main {
+    top: 12%;
+    left: 30%;
+  }
+}
+.google-map {
+  margin: -8px;
+}
+
+footer {
+  background-color: #08526d;
+  color: #fff;
+  padding: 10px;
+  font-family: "Lora", serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+footer .copyright {
+  margin-left: 60%;
+}
+
+/* ################################ Start Scroll Up ################################  */
+#scroll_up {
+  width: 50px;
+  height: 40px;
+  color: #DDD;
+  background-color: #272727;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  cursor: pointer;
+  z-index: 9999;
+  display: none;
+}
+
+#scroll_up:hover {
+  background-color: #444;
+}
+
+/* ################################ Start Scroll Up ################################  */
+.firstPerosnTeam {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.firstPerosnTeam .data h1 {
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 15px;
+}
+.firstPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.firstPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+.secondPerosnTeam {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.secondPerosnTeam img {
+  padding-top: 70px;
+  box-shadow: 0 10px 6px -6px #ccc;
+}
+.secondPerosnTeam .data {
+  padding-top: 45px;
+}
+.secondPerosnTeam .data h1 {
+  font-weight: bold;
+}
+.secondPerosnTeam ul li {
+  padding-bottom: 10px;
+}
+.secondPerosnTeam ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6FDA44;
+  font-size: 14px;
+  position: relative;
+}
+
+/* ############################# Start Current investment ############################# */
+.investment-intro {
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.current-investment h1 {
+  padding-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+.current-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.current-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.current-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.current-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.current-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.current-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Current investment ############################# */
+/* ############################# Start Recent investment ############################# */
+.recent-investment {
+  padding: 0 0 100px;
+}
+.recent-investment h1 {
+  padding-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+.recent-investment h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.recent-investment .card {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.recent-investment .card-title {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #08526d;
+}
+.recent-investment .card .card-text {
+  color: #787878;
+  margin-bottom: 6px;
+}
+.recent-investment .card .card-link {
+  color: #529637;
+  font-weight: bold;
+}
+.recent-investment .card .card-link i {
+  color: #08526d;
+}
+
+/* ############################# End Recent investment ############################# */
+
+/*# sourceMappingURL=style.css.map */

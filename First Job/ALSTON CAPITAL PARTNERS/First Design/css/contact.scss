@@ -1,0 +1,66 @@
+.address {
+  font-weight: bold;
+  padding-top: 60px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+
+  hr {
+    border: 2px solid #ccc;
+  }
+
+}
+
+.contact-info {
+  padding: 30px;
+
+  .info {
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  h3 {
+    font-weight: bold;
+    color: #1c7430;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+  }
+
+  .email {
+    color: #1D4354;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  li {
+    padding-bottom: 10px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+}
+
+.google-map {
+  padding: 0;
+  margin-top: 50px;
+
+  iframe {
+    margin-top: -18px;
+  }
+}
+
+
+
+
+
+
+
